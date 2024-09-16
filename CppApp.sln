@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1451BEFB-904F-404F-9D6B-5F32653090B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "winapp", "winapp", "{9676D9D3-8EBB-42EA-9CA7-9709481308FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGuiLib", "winapp\ImGuiLib\ImGuiLib.vcxproj", "{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HttpSrc", "shared\HttpSrc\HttpSrc.vcxitems", "{F4BF6FC8-0A3F-4932-AC6D-FA92E7C2A7B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGuiSrc", "shared\ImGuiSrc\ImGuiSrc.vcxitems", "{B1A13FF4-B046-4EE4-934B-D79F34153152}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConnectedApp", "winapp\ConnectedApp\ConnectedApp.vcxproj", "{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Debug|x64.ActiveCfg = Debug|x64
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Debug|x64.Build.0 = Debug|x64
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Debug|x86.Build.0 = Debug|Win32
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Release|x64.ActiveCfg = Release|x64
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Release|x64.Build.0 = Release|x64
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Release|x86.ActiveCfg = Release|Win32
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E}.Release|x86.Build.0 = Release|Win32
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Debug|x64.ActiveCfg = Debug|x64
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Debug|x64.Build.0 = Debug|x64
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Debug|x86.Build.0 = Debug|Win32
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Release|x64.ActiveCfg = Release|x64
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Release|x64.Build.0 = Release|x64
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Release|x86.ActiveCfg = Release|Win32
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FE439FF-8EBF-4F23-BB40-8AA55C3C567E} = {9676D9D3-8EBB-42EA-9CA7-9709481308FA}
+		{F4BF6FC8-0A3F-4932-AC6D-FA92E7C2A7B2} = {1451BEFB-904F-404F-9D6B-5F32653090B9}
+		{B1A13FF4-B046-4EE4-934B-D79F34153152} = {1451BEFB-904F-404F-9D6B-5F32653090B9}
+		{E4C5B89F-7E63-4365-ABED-CF9B16BC1C2B} = {9676D9D3-8EBB-42EA-9CA7-9709481308FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02F5021-42BF-4AAA-BC8F-F5DB22C7B390}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		shared\ImGuiSrc\ImGuiSrc.vcxitems*{6fe439ff-8ebf-4f23-bb40-8aa55c3c567e}*SharedItemsImports = 4
+		shared\ImGuiSrc\ImGuiSrc.vcxitems*{b1a13ff4-b046-4ee4-934b-d79f34153152}*SharedItemsImports = 9
+		shared\HttpSrc\HttpSrc.vcxitems*{e4c5b89f-7e63-4365-abed-cf9b16bc1c2b}*SharedItemsImports = 4
+		shared\HttpSrc\HttpSrc.vcxitems*{f4bf6fc8-0a3f-4932-ac6d-fa92e7c2a7b2}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
